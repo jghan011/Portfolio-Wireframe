@@ -1,0 +1,60 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: #111;
+}
+
+.home {
+    background-color: lightblue;
+    margin-top: 90px;
+    margin-right: 130px;
+    margin-left: 130px;
+    padding-top: 90px;
+    padding-right: 100px;
+    padding-bottom: 450px;
+    padding-left: 100px;
+}
+
+.bio {
+
+    margin-top: 370px;
+    background-color: lightblue;
+    margin-right: 130px;
+    margin-left: 130px;
+    padding-top: 90px;
+    padding-right: 100px;
+    padding-bottom: 450px;
+    padding-left: 100px;
+}
+
+.projects {
+
+    margin-top: 350px;
+    background-color: lightblue;
+    margin-right: 130px;
+    margin-left: 130px;
+    padding-top: 90px;
+    padding-right: 100px;
+    padding-bottom: 450px;
+    padding-left: 100px;
+
+
+}
