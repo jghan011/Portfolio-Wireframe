@@ -6,23 +6,73 @@ ul {
     background-color: #333;
 }
 
+
+
 li {
-    float: left;
+    float: right;
 }
+
+
+
+li.home {
+    float: left;
+    margin-left: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+li.contact {
+    float: left;
+    margin-left: 25px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.bioLink {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+
+.portfolio {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
 
 li {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 16px 18px;
     text-decoration: none;
 }
+
+
 
 li:hover {
     background-color: #111;
 }
 
-.home {
+
+
+.Github {
+    color: green;
+    font-weight: bold;
+}
+
+
+
+.Linkedin {
+    color: rgb(33, 124, 199);
+    font-weight: bold;
+}
+
+
+
+.homePage {
     background-color: lightblue;
     margin-top: 90px;
     margin-right: 130px;
@@ -33,10 +83,11 @@ li:hover {
     padding-left: 100px;
 }
 
-.bio {
 
-    margin-top: 370px;
+.contactInfo {
+    display: none;
     background-color: lightblue;
+    margin-top: 90px;
     margin-right: 130px;
     margin-left: 130px;
     padding-top: 90px;
@@ -45,10 +96,11 @@ li:hover {
     padding-left: 100px;
 }
 
-.projects {
 
-    margin-top: 350px;
+.bioPage {
+    display: none;
     background-color: lightblue;
+    margin-top: 90px;
     margin-right: 130px;
     margin-left: 130px;
     padding-top: 90px;
@@ -56,5 +108,18 @@ li:hover {
     padding-bottom: 450px;
     padding-left: 100px;
 
+}
 
+
+
+.projects {
+    display: none;
+    background-color: lightblue;
+    margin-top: 90px;
+    margin-right: 130px;
+    margin-left: 130px;
+    padding-top: 90px;
+    padding-right: 100px;
+    padding-bottom: 450px;
+    padding-left: 100px;
 }
