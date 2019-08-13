@@ -6,10 +6,12 @@ body {
 }
 
 .nav {
-    border-bottom: 1px solid black;
+    background-color: black;
+    border-bottom: 1px solid red;
     text-align: right;
     height: 80px;
     line-height: 70px;
+
 
 }
 
@@ -86,17 +88,14 @@ li.contact {
 
 
 
-
-
-
-.Github {
+#Github {
     color: green;
     font-weight: bold;
 }
 
 
 
-.Linkedin {
+#Linkedin {
     color: rgb(33, 124, 199);
     font-weight: bold;
 }
