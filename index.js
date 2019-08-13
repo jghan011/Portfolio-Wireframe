@@ -33,15 +33,7 @@ function handleClickHome() {
 }
 
 
-function handleClickContact() {
-    $(".contact").on("click", function (event) {
-        $(".homePage").hide();
-        $(".projects").hide();
-        $(".bioPage").hide();
-        $(".contactInfo").css("display", "block");
-    })
 
-}
 
 
 
@@ -49,7 +41,7 @@ function portfolio() {
     handleClickBio();
     handleClickPortfolio();
     handleClickHome();
-    handleClickContact();
+
 
 }
 $(portfolio);

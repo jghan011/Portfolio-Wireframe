@@ -1,24 +1,67 @@
-ul {
-    list-style-type: none;
+html,
+body {
+    width: 100%;
+    height: 100%;
     margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+}
+
+.nav {
+    border-bottom: 1px solid black;
+    text-align: right;
+    height: 80px;
+    line-height: 70px;
+
+}
+
+.menu {
+    display: none;
+    text-align: center;
+    width: 100%;
+
+
+}
+
+.menu a {
+    display: block;
+    border-bottom: 1px solid black;
+    text-decoration: none;
+    margin: 0px;
+    margin-right: 10px;
+    /*top to bottom*/
+
+    /*from left to right*/
+    line-height: 70px;
+    color: white;
+}
+
+#toggle:checked+.menu {
+    justify-content: space-evenly;
+
+    display: inline-flex;
+
+    font-size: 11px;
+
+    background-color: black;
+
+
+}
+
+#toggle {
+    display: none;
+
 }
 
 
 
-li {
-    float: right;
-}
+label {
 
-
-
-li.home {
-    float: left;
-    margin-left: 20px;
+    margin: 0 25px 0 0;
+    font-size: 26px;
+    line-height: 10px;
     cursor: pointer;
-    font-weight: bold;
+
+    color: white;
+    background-color: black;
 }
 
 li.contact {
@@ -42,19 +85,7 @@ li.contact {
 
 
 
-li {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 16px 18px;
-    text-decoration: none;
-}
 
-
-
-li:hover {
-    background-color: #111;
-}
 
 
 
@@ -73,14 +104,15 @@ li:hover {
 
 
 .homePage {
-    background-color: lightblue;
-    margin-top: 90px;
-    margin-right: 130px;
-    margin-left: 130px;
-    padding-top: 90px;
-    padding-right: 100px;
-    padding-bottom: 450px;
-    padding-left: 100px;
+    background-image: url("https://images.pexels.com/photos/754082/pexels-photo-754082.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    margin-top: 150px;
+    margin-right: 70px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    padding-top: 290px;
+    padding-right: 50px;
+    padding-bottom: 280px;
+    padding-left: 50px;
 }
 
 
