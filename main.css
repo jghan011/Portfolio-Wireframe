@@ -155,7 +155,7 @@ li.contact {
 
 
 .bioPage {
-
+    display: none;
     background-color: lightblue;
     background-size: no-repeat;
     font-size: 17px;
