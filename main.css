@@ -155,16 +155,17 @@ li.contact {
 
 
 .bioPage {
-    display: none;
-    background-color: lightblue;
-    margin-top: 90px;
-    margin-right: 380px;
-    margin-left: 50px;
-    padding-top: 90px;
-    padding-right: 139px;
-    padding-bottom: 280px;
-    padding-left: 100px;
 
+    background-color: lightblue;
+    background-size: no-repeat;
+    font-size: 17px;
+    text-indent: 12%;
+    background-color: black;
+    color: aliceblue;
+    margin-top: 140px;
+    margin-right: 10px;
+    margin-left: 20px;
+    font-weight: bold;
 }
 
 
