@@ -169,15 +169,44 @@ li.contact {
 }
 
 
-
+/* projects info */
 .projects {
     display: none;
-    background-color: lightblue;
+    background-image: url("https://wallpaperplay.com/walls/full/0/8/c/257416.jpg");
+    color: white;
     margin-top: 90px;
-    margin-right: 130px;
-    margin-left: 130px;
-    padding-top: 90px;
-    padding-right: 100px;
-    padding-bottom: 450px;
-    padding-left: 100px;
+    margin-right: 19px;
+    margin-left: 19px;
+    padding-top: 430px;
+    cursor: pointer;
 }
+
+.chelseaFc {
+
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+.chelseaLogo {
+    border-style: none;
+    height: 180px;
+    position: absolute;
+    top: 31%;
+    left: 30%
+}
+
+.Cfc-disc {
+    position: absolute;
+    top: 55%;
+    width: 88%;
+    text-indent: 11%
+}
+
+.language {
+    position: absolute;
+    top: 75%;
+    font-weight: bold
+}
+
+/* ene of projects section */
