@@ -1,7 +1,7 @@
 body {
-    background-image: url("https://wallpapertag.com/wallpaper/full/9/f/6/705304-top-pictures-of-black-backgrounds-1920x1200.jpg");
-
-
+    background-image: url("https://images.pexels.com/photos/1428277/pexels-photo-1428277.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 
     width: 100%;
     height: 100%;
@@ -76,21 +76,24 @@ label {
 
 .middle {
     position: absolute;
-    top: 50%;
+    top: 40%;
     right: 14%;
-    color: aliceblue;
+    color: wheat;
     text-align: center;
-    width: 71%;
+
+
 }
 
 
 .email {
     margin-right: 20px;
+    font-weight: bold;
 
 }
 
 .line {
     margin-left: 20px;
+    font-weight: bold;
 
 }
 
@@ -125,6 +128,7 @@ li.contact {
 #Github {
     color: green;
     font-weight: bold;
+    font-size: 20px;
 }
 
 
@@ -132,21 +136,20 @@ li.contact {
 #Linkedin {
     color: rgb(33, 124, 199);
     font-weight: bold;
+    font-size: 20px;
 }
 
 
 
 .homePage {
-    background-image: url("https://i.pinimg.com/236x/15/f1/91/15f1916fa60de4e4b7de182798357351.jpg");
+
+    background-image: url("https://main-inspirationfeed.netdna-ssl.com/wp-content/uploads/2019/06/mike-smith-644465-unsplash.jpg");
     background-repeat: no-repeat;
-    margin-top: 150px;
-    margin-right: 380px;
-    margin-left: 50px;
-    margin-bottom: 100px;
-    padding-top: 290px;
-    padding-right: 139px;
-    padding-bottom: 280px;
-    padding-left: 100px;
+    background-size: 100% 100%, cover;
+    background-position: bottom center;
+
+    padding-bottom: 680px;
+
 }
 
 
@@ -155,63 +158,97 @@ li.contact {
 
 .bioPage {
     display: none;
-    background-color: lightblue;
+
     background-size: no-repeat;
     font-size: 17px;
     text-indent: 12%;
-    background-color: black;
+
     color: aliceblue;
-    margin-top: 140px;
+    margin-top: 100px;
     margin-right: 10px;
     margin-left: 20px;
     font-weight: bold;
+    padding-top: 120px;
 }
 
 
 /* projects info */
 .projects {
     display: none;
-    background-image: url("https://wallpaperstream.com/wallpapers/full/cityscape/Cool-Blue-Black-City-View.jpg");
+    background-image: url("https://images.pexels.com/photos/1421903/pexels-photo-1421903.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     color: white;
 
-    padding-top: 490px;
+    padding-top: 620px;
+    background-size: 100% 100%, cover;
+
+    background-position: bottom center;
     cursor: pointer;
 }
 
 .chelseaFc {
 
+
     position: absolute;
-    top: 25%;
-    left: 25%;
+    top: 17%;
+    left: 1%;
+    color: beige;
 }
 
 .chelseaLogo {
+
     border-style: none;
-    height: 180px;
+    height: 100px;
     position: absolute;
-    top: 31%;
-    left: 30%
+    height: 110px;
+    top: 23%;
+    left: 1%;
+    background: border-box;
+    border: 1px solid rgb(255, 255, 187);
 }
 
 .Cfc-disc {
     position: absolute;
-    top: 55%;
+    top: 36%;
     width: 88%;
-    text-indent: 11%
+    text-indent: 3%;
+    left: 0%;
+    background: border-box;
+    color: beige;
+    font-size: 1.23em;
+    font-weight: bold;
 }
 
-.language {
+.languages {
+
     position: absolute;
-    top: 75%;
-    font-weight: bold
+    top: 65%;
+
+    font-weight: bold;
+    font-size: 1.23em;
+
 }
 
 /* ene of projects section */
 
-@media only screen and (max-width: 375px) {
+@media only screen and (min-width: 375px) {
+    .bioPage {
+        padding-bottom: 140px;
+        margin-top: 10px;
+    }
+
+    .paragraph {
+        color: aliceblue;
+        font-size: 1.09em;
+    }
+
+
+    .paragraphTwo {
+        color: aliceblue;
+        font-size: 1.0em;
+    }
 
     .projects {
-        background-image: url("https://wallpaperstream.com/wallpapers/full/cityscape/Cool-Blue-Black-City-View.jpg") no-repeat;
+        background-image: url("https://images.pexels.com/photos/2725479/pexels-photo-2725479.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat;
         background-size: 100% 100%, cover;
 
         background-position: bottom center;
@@ -220,17 +257,20 @@ li.contact {
 
     .Cfc-disc {
         position: absolute;
-        top: 65%;
+        top: 39%;
         width: 88%;
         text-indent: 3%;
         left: 0%;
+        background: border-box;
+        color: beige;
     }
 
 
     .chelseaFc {
         position: absolute;
-        top: 45%;
-        left: 31%;
+        top: 19%;
+        left: 1%;
+        color: beige;
 
     }
 
@@ -238,13 +278,147 @@ li.contact {
         border-style: none;
         height: 100px;
         position: absolute;
-        top: 51%;
-        left: 31%;
+        height: 110px;
+        top: 25%;
+        left: 1%;
+        background: border-box;
+        border: 1px solid rgb(255, 255, 187);
+    }
+
+
+    .languages {
+        position: absolute;
+        top: 55%;
+    }
+}
+
+
+@media only screen and (min-width:425px) {
+    .Cfc-disc {
+        position: absolute;
+        top: 39%;
+        width: 70%;
+        text-indent: 3%;
+        left: 0%;
+        background: border-box;
+        color: rgb(248, 248, 179);
+    }
+
+    .paragraph {
+        font-size: 1.2em;
+        color: aliceblue;
+    }
+
+    .paragraphTwo {
+        font-size: 1.2em;
+        color: aliceblue;
+
+    }
+
+    .bioPage {
+        margin-top: 55px;
+
+    }
+}
+
+@media only screen and (min-width:768px) {
+
+    .middle {
+        color: black;
+        font-size: 1.14em;
+    }
+
+    .languages {
+        position: absolute;
+        top: 55%;
+        font-weight: bold;
+        font-size: 18px;
+
+    }
+
+    .paragraph {
+        font-size: 1.4em
+    }
+
+
+    .paragraphTwo {
+        font-size: 1.4em;
+    }
+
+    .Cfc-disc {
+        position: absolute;
+        top: 39%;
+        width: 58%;
+        text-indent: 3%;
+        left: 0%;
+        background: border-box;
+        color: beige;
+        font-size: 18px;
+    }
+
+}
+
+@media only screen and (min-width:1024px) {
+
+
+    .bioPage {
+        width: 80%;
+    }
+
+
+    .paragraph {
+        font-size: 1.5em;
+        color: aliceblue;
+
+    }
+
+
+    .paragraphTwo {
+        font-size: 1.5em;
+        color: aliceblue;
+    }
+
+
+    .middle {
+        font-size: 1.3em;
     }
 
 
 
 
 
+}
 
+@media only screen and (min-width:1440px) {
+    .projects {
+        padding-bottom: 180px;
+
+
+    }
+
+    .Cfc-disc {
+        text-indent: 0%;
+        font-size: 2.0em;
+
+    }
+
+    .chelseaFc {
+        font-size: 1.3em;
+    }
+
+    .chelseaLogo {
+        top: 27%;
+        font-size: 1.3em;
+
+    }
+
+    .homePage {
+        padding-bottom: 800px;
+
+    }
+
+    .bioPage {
+        padding-bottom: 100px;
+        font-size: 1.5em;
+    }
 }
