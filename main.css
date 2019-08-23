@@ -31,7 +31,7 @@ body {
 .menu a {
     font-size: 14px;
     display: block;
-    border-bottom: 1px solid black;
+
     text-decoration: none;
     margin: 0px;
     margin-right: 10px;
@@ -191,7 +191,7 @@ li.contact {
     position: absolute;
     top: 17%;
     left: 1%;
-    color: beige;
+    color: rgb(248, 248, 179);
 }
 
 .chelseaLogo {
@@ -204,6 +204,7 @@ li.contact {
     left: 1%;
     background: border-box;
     border: 1px solid rgb(255, 255, 187);
+    cursor: pointer;
 }
 
 .Cfc-disc {
@@ -213,7 +214,7 @@ li.contact {
     text-indent: 3%;
     left: 0%;
     background: border-box;
-    color: beige;
+    color: rgb(248, 248, 179);
     font-size: 1.23em;
     font-weight: bold;
 }
@@ -225,12 +226,15 @@ li.contact {
 
     font-weight: bold;
     font-size: 1.23em;
-
+    color: rgb(255, 255, 142);
 }
 
 /* ene of projects section */
 
 @media only screen and (min-width: 375px) {
+
+
+
     .bioPage {
         padding-bottom: 140px;
         margin-top: 10px;
@@ -262,7 +266,7 @@ li.contact {
         text-indent: 3%;
         left: 0%;
         background: border-box;
-        color: beige;
+        color: rgb(248, 248, 179);
     }
 
 
@@ -270,7 +274,7 @@ li.contact {
         position: absolute;
         top: 19%;
         left: 1%;
-        color: beige;
+        color: rgb(248, 248, 179);
 
     }
 
@@ -283,12 +287,14 @@ li.contact {
         left: 1%;
         background: border-box;
         border: 1px solid rgb(255, 255, 187);
+        cursor: pointer;
     }
 
 
     .languages {
         position: absolute;
-        top: 55%;
+        top: 65%;
+        color: rgb(255, 255, 142);
     }
 }
 
@@ -296,7 +302,7 @@ li.contact {
 @media only screen and (min-width:425px) {
     .Cfc-disc {
         position: absolute;
-        top: 39%;
+        top: 41%;
         width: 70%;
         text-indent: 3%;
         left: 0%;
@@ -319,6 +325,17 @@ li.contact {
         margin-top: 55px;
 
     }
+
+
+    .chelseaLogo {
+        top: 26%;
+        cursor: pointer;
+    }
+
+    .languages {
+        color: rgb(255, 255, 142);
+
+    }
 }
 
 @media only screen and (min-width:768px) {
@@ -330,10 +347,10 @@ li.contact {
 
     .languages {
         position: absolute;
-        top: 55%;
+        top: 65%;
         font-weight: bold;
-        font-size: 18px;
-
+        font-size: 1.3em;
+        color: rgb(255, 255, 142);
     }
 
     .paragraph {
@@ -347,15 +364,25 @@ li.contact {
 
     .Cfc-disc {
         position: absolute;
-        top: 39%;
+        top: 45%;
         width: 58%;
         text-indent: 3%;
         left: 0%;
         background: border-box;
-        color: beige;
+        color: rgb(248, 248, 179);
         font-size: 18px;
     }
 
+    .chelseaLogo {
+        top: 30%;
+        height: 7pc;
+        cursor: pointer;
+    }
+
+    .chelseaFc {
+        top: 19%;
+        font-size: 1.7em;
+    }
 }
 
 @media only screen and (min-width:1024px) {
@@ -383,13 +410,97 @@ li.contact {
         font-size: 1.3em;
     }
 
+    .chelseaFc {
+        position: absolute;
+        top: 15%;
+        left: 1%;
+        color: rgb(248, 248, 179);
+        font-size: 1.7em
+    }
+
+
+    .Cfc-disc {
+        color: rgb(248, 248, 179);
+        top: 44%;
+        font-size: 1.3em;
+    }
+
+    .languages {
+        top: 63%;
+        font-size: 1.4em;
+        color: rgb(255, 255, 142);
+    }
+
+    .chelseaLogo {
+        top: 26%;
+        height: 122px;
+        cursor: pointer;
+    }
+
+    #Github {
+        color: green;
+        font-weight: bold;
+        font-size: 23px;
+    }
 
 
 
+    #Linkedin {
+        color: rgb(33, 124, 199);
+        font-weight: bold;
+        font-size: 23px;
+    }
+
+    label {
+        display: none;
+    }
+
+
+
+    #toggle:checked+.menu {
+        display: none;
+    }
+
+    .menu {
+        display: inline-flex;
+        justify-content: space-evenly;
+
+
+    }
+
+    .menu a {
+        font-size: 25px;
+        display: block;
+
+        text-decoration: none;
+        margin: 0px;
+        margin-right: 6px;
+        /*top to bottom*/
+
+        /*from left to right*/
+        line-height: 80px;
+        color: white;
+    }
 
 }
 
 @media only screen and (min-width:1440px) {
+    #Github {
+        color: green;
+        font-weight: bold;
+        font-size: 23px;
+    }
+
+
+
+    #Linkedin {
+        color: rgb(33, 124, 199);
+        font-weight: bold;
+        font-size: 23px;
+    }
+
+
+
     .projects {
         padding-bottom: 180px;
 
@@ -399,16 +510,17 @@ li.contact {
     .Cfc-disc {
         text-indent: 0%;
         font-size: 2.0em;
-
+        color: rgb(248, 248, 179);
     }
 
     .chelseaFc {
-        font-size: 1.3em;
+        font-size: 2.3em;
     }
 
     .chelseaLogo {
         top: 27%;
-        font-size: 1.3em;
+        height: 160px;
+        cursor: pointer;
 
     }
 
@@ -420,5 +532,43 @@ li.contact {
     .bioPage {
         padding-bottom: 100px;
         font-size: 1.5em;
+    }
+
+
+    .languages {
+        top: 65%;
+        font-size: 2.0em;
+        color: rgb(255, 255, 142);
+    }
+
+    label {
+        display: none;
+    }
+
+
+
+    #toggle:checked+.menu {
+        display: none;
+    }
+
+    .menu {
+        display: inline-flex;
+        justify-content: space-evenly;
+
+
+    }
+
+    .menu a {
+        font-size: 25px;
+        display: block;
+
+        text-decoration: none;
+        margin: 0px;
+        margin-right: 6px;
+        /*top to bottom*/
+
+        /*from left to right*/
+        line-height: 80px;
+        color: white;
     }
 }
