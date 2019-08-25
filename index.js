@@ -5,6 +5,7 @@ function handleClickBio() {
         $(".homePage").hide();
         $(".contactInfo").hide();
 
+
     })
 
 }

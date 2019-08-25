@@ -1,5 +1,5 @@
 body {
-    background-image: url("https://images.pexels.com/photos/1428277/pexels-photo-1428277.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+
     background-size: 100% 100%;
     background-repeat: no-repeat;
 
@@ -158,19 +158,31 @@ li.contact {
 
 .bioPage {
     display: none;
-
-    background-size: no-repeat;
-    font-size: 17px;
-    text-indent: 12%;
-
-    color: aliceblue;
-    margin-top: 100px;
-    margin-right: 10px;
-    margin-left: 20px;
-    font-weight: bold;
-    padding-top: 120px;
+    background-image: url("https://images.pexels.com/photos/1428277/pexels-photo-1428277.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 200px;
+    padding-bottom: 400px;
+    font-size: 1.4em;
 }
 
+
+.paragraph {
+    color: rgb(255, 255, 255);
+    font-size: 1.09em;
+}
+
+
+
+.paragraphTwo {
+    color: rgb(255, 255, 255);
+    font-size: 1.0em;
+
+}
 
 /* projects info */
 .projects {
@@ -209,7 +221,7 @@ li.contact {
 
 .Cfc-disc {
     position: absolute;
-    top: 36%;
+    top: 46%;
     width: 88%;
     text-indent: 3%;
     left: 0%;
@@ -236,18 +248,28 @@ li.contact {
 
 
     .bioPage {
-        padding-bottom: 140px;
+
         margin-top: 10px;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-top: 200px;
+        padding-bottom: 400px;
+        font-size: 1.3em;
+        font-weight: bold;
     }
 
+
     .paragraph {
-        color: aliceblue;
+        color: rgb(255, 255, 255);
         font-size: 1.09em;
     }
 
 
     .paragraphTwo {
-        color: aliceblue;
+        color: rgb(255, 255, 255);
         font-size: 1.0em;
     }
 
@@ -312,20 +334,27 @@ li.contact {
 
     .paragraph {
         font-size: 1.2em;
-        color: aliceblue;
+        color: rgb(255, 255, 255)
     }
 
     .paragraphTwo {
         font-size: 1.2em;
-        color: aliceblue;
-
+        color: rgb(255, 255, 255)
     }
+
+
+
 
     .bioPage {
-        margin-top: 55px;
-
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-top: 200px;
+        padding-bottom: 400px;
+        font-size: 1.3em;
     }
-
 
     .chelseaLogo {
         top: 26%;
@@ -339,6 +368,18 @@ li.contact {
 }
 
 @media only screen and (min-width:768px) {
+
+    .bioPage {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-top: 200px;
+        padding-bottom: 400px;
+        font-size: 1.3em;
+    }
+
 
     .middle {
         color: black;
@@ -354,12 +395,13 @@ li.contact {
     }
 
     .paragraph {
-        font-size: 1.4em
+        font-size: 1.4em color: rgb(255, 255, 255)
     }
 
 
     .paragraphTwo {
         font-size: 1.4em;
+        color: rgb(255, 255, 255)
     }
 
     .Cfc-disc {
@@ -389,20 +431,28 @@ li.contact {
 
 
     .bioPage {
-        width: 80%;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-top: 200px;
+        padding-bottom: 400px;
+        font-size: 1.3em;
     }
+
+
 
 
     .paragraph {
         font-size: 1.5em;
-        color: aliceblue;
-
+        color: rgb(255, 255, 255)
     }
 
 
     .paragraphTwo {
         font-size: 1.5em;
-        color: aliceblue;
+        color: rgb(255, 255, 255)
     }
 
 
@@ -570,5 +620,35 @@ li.contact {
         /*from left to right*/
         line-height: 80px;
         color: white;
+    }
+
+    .bioPage {
+        background-size: no-repeat;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+
+
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-top: 300px;
+        padding-bottom: 400px;
+
+
+    }
+
+
+
+
+
+    .paragraph {
+
+        font-weight: bold;
+        color: rgb(255, 255, 255)
+    }
+
+    .paragraphTwo {
+        font-weight: bold;
+        color: rgb(255, 255, 255)
     }
 }
