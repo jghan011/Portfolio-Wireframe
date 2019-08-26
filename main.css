@@ -173,15 +173,16 @@ li.contact {
 
 .paragraph {
     color: rgb(255, 255, 255);
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-family: 'Times New Roman', Times, serif;
+
 }
 
 
 
 .paragraphTwo {
     color: rgb(255, 255, 255);
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-family: 'Times New Roman', Times, serif;
 
 }
@@ -368,6 +369,7 @@ li.contact {
     }
 
     .languages {
+        top: 70%;
         color: rgb(255, 255, 142);
 
     }
