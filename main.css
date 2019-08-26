@@ -173,14 +173,16 @@ li.contact {
 
 .paragraph {
     color: rgb(255, 255, 255);
-    font-size: 1.09em;
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
 
 .paragraphTwo {
     color: rgb(255, 255, 255);
-    font-size: 1.0em;
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
 
 }
 
@@ -238,6 +240,7 @@ li.contact {
     font-weight: bold;
     font-size: 1.23em;
     color: rgb(255, 255, 142);
+
 }
 
 /* ene of projects section */
@@ -264,12 +267,14 @@ li.contact {
     .paragraph {
         color: rgb(255, 255, 255);
         font-size: 1.09em;
+        font-family: 'Times New Roman', Times, serif;
     }
 
 
     .paragraphTwo {
         color: rgb(255, 255, 255);
         font-size: 1.0em;
+        font-family: 'Times New Roman', Times, serif;
     }
 
     .projects {
@@ -333,12 +338,14 @@ li.contact {
 
     .paragraph {
         font-size: 1.2em;
-        color: rgb(255, 255, 255)
+        color: rgb(255, 255, 255);
+        font-family: 'Times New Roman', Times, serif;
     }
 
     .paragraphTwo {
         font-size: 1.2em;
-        color: rgb(255, 255, 255)
+        color: rgb(255, 255, 255);
+        font-family: 'Times New Roman', Times, serif;
     }
 
 
@@ -394,13 +401,16 @@ li.contact {
     }
 
     .paragraph {
-        font-size: 1.4em color: rgb(255, 255, 255)
+        font-size: 1.4em;
+        color: rgb(255, 255, 255);
+        font-family: 'Times New Roman', Times, serif;
     }
 
 
     .paragraphTwo {
         font-size: 1.4em;
-        color: rgb(255, 255, 255)
+        color: rgb(255, 255, 255);
+        font-family: 'Times New Roman', Times, serif;
     }
 
     .Cfc-disc {
@@ -445,13 +455,15 @@ li.contact {
 
     .paragraph {
         font-size: 1.5em;
-        color: rgb(255, 255, 255)
+        color: rgb(255, 255, 255);
+        font-family: 'Times New Roman', Times, serif;
     }
 
 
     .paragraphTwo {
         font-size: 1.5em;
-        color: rgb(255, 255, 255)
+        color: rgb(255, 255, 255);
+        font-family: 'Times New Roman', Times, serif;
     }
 
 
@@ -643,11 +655,13 @@ li.contact {
     .paragraph {
 
         font-weight: bold;
-        color: rgb(255, 255, 255)
+        color: rgb(255, 255, 255);
+        font-family: 'Times New Roman', Times, serif;
     }
 
     .paragraphTwo {
         font-weight: bold;
-        color: rgb(255, 255, 255)
+        color: rgb(255, 255, 255);
+        font-family: 'Times New Roman', Times, serif;
     }
 }
